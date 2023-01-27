@@ -177,11 +177,13 @@
     animation-name: move-up;
     animation-duration: 3s;
     animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 .ex-12-bottom-white {
     animation-name: move-bottom;
     animation-duration: 3s;
     animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 @keyframes move-up {
@@ -223,11 +225,13 @@
     animation-name: pluto;
     animation-duration: 3s;
     animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 .ex-13-bottom-white {
     animation-name: pippo;
     animation-duration: 3s;
     animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 @keyframes pluto {
@@ -237,19 +241,19 @@
     }
     25% {
         top: -10px;
-        left: 90%;
+        left: 85%;
     }
     50% {
-        top: 60px;
-        left: 90%;
+        top: 50px;
+        left: 85%;
     }
     75% {
-        top: 60px;
-        left: 10%;
+        top: 50px;
+        left: -10%;
     }
     90% {
-        top: 10px;
-        left: 10%;
+        top: -10px;
+        left: -10%;
     }
     
     100% {
@@ -264,9 +268,21 @@
         bottom: -10px;
         right: 20%;
     }
-    50% {
+    25% {
         bottom: -10px;
-        right: 90%;
+        right: 80%;
+    }
+    50% {
+        bottom: 54px;
+        right: 80%;
+    }
+    75% {
+        bottom: 54px;
+        right: -15%;
+    }
+    90% {
+        bottom: -10px;
+        right: -15%;
     }
     100% {
         bottom: -10px;
